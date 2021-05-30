@@ -5742,12 +5742,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="" package3d_urn="urn:adsk.eagle:package:37121/1"/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="3K3"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="2K2"/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="3K3"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="2K2"/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5760,9 +5756,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="73.66" y1="132.08" x2="73.66" y2="185.42" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="97"/>
 <wire x1="162.56" y1="132.08" x2="162.56" y2="185.42" width="0.1524" layer="97"/>
-<wire x1="162.56" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="97"/>
-<wire x1="170.18" y1="132.08" x2="170.18" y2="76.2" width="0.1524" layer="97"/>
-<wire x1="170.18" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="162.56" y1="132.08" x2="162.56" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="162.56" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="97"/>
 <text x="91.44" y="78.74" size="5.08" layer="97">UART Connections</text>
 <text x="148.844" y="6.35" size="1.6764" layer="97">MAIX II Dock Integration - Matt Merrett
 HAT Template - Ivan Zilic (https://www.raspberrypi.org/forums/viewtopic.php?t=82618)</text>
@@ -5848,27 +5843,13 @@ HAT Template - Ivan Zilic (https://www.raspberrypi.org/forums/viewtopic.php?t=82
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="R5" gate="G$1" x="99.06" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.536" y="104.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="100.584" y="104.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R4" gate="G$1" x="119.38" y="121.92" smashed="yes">
+<attribute name="NAME" x="119.38" y="123.444" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="119.38" y="120.396" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="99.06" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="97.536" y="119.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="100.584" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="GND5" gate="1" x="99.06" y="91.44" smashed="yes">
-<attribute name="VALUE" x="96.52" y="88.9" size="1.778" layer="96"/>
-</instance>
-<instance part="R6" gate="G$1" x="144.78" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="143.256" y="104.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="146.304" y="104.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R7" gate="G$1" x="144.78" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="143.256" y="119.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="146.304" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="GND6" gate="1" x="144.78" y="91.44" smashed="yes">
-<attribute name="VALUE" x="142.24" y="88.9" size="1.778" layer="96"/>
+<instance part="R7" gate="G$1" x="119.38" y="104.14" smashed="yes">
+<attribute name="NAME" x="119.38" y="105.664" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="119.38" y="102.616" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -5941,16 +5922,6 @@ HAT Template - Ivan Zilic (https://www.raspberrypi.org/forums/viewtopic.php?t=82
 <pinref part="P4" gate="A" pin="1"/>
 <wire x1="129.54" y1="175.26" x2="147.32" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="99.06" y1="93.98" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="144.78" y1="93.98" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6109,9 +6080,9 @@ HAT Template - Ivan Zilic (https://www.raspberrypi.org/forums/viewtopic.php?t=82
 <label x="101.6" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<wire x1="124.46" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
-<label x="124.46" y="124.46" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<label x="93.98" y="104.14" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PH6" class="0">
@@ -6172,9 +6143,9 @@ HAT Template - Ivan Zilic (https://www.raspberrypi.org/forums/viewtopic.php?t=82
 </net>
 <net name="MAIX-UART0-RX" class="0">
 <segment>
-<wire x1="78.74" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
-<label x="78.74" y="124.46" size="1.778" layer="95"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
+<label x="93.98" y="121.92" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="P5" gate="A" pin="9"/>
@@ -6184,13 +6155,9 @@ HAT Template - Ivan Zilic (https://www.raspberrypi.org/forums/viewtopic.php?t=82
 </net>
 <net name="RPI-UART-RX" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="109.22" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="111.76" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
-<junction x="144.78" y="111.76"/>
-<label x="149.86" y="111.76" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="124.46" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<label x="127" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="K1" gate="G$1" pin="10"/>
@@ -6200,13 +6167,9 @@ HAT Template - Ivan Zilic (https://www.raspberrypi.org/forums/viewtopic.php?t=82
 </net>
 <net name="RPI-UART-TX" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="109.22" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="111.76" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
-<junction x="99.06" y="111.76"/>
-<label x="104.14" y="111.76" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
+<label x="127" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="K1" gate="G$1" pin="8"/>
